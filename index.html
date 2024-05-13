@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Usługi informatyczne</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">IT</div>
+        <nav>
+            <ul>
+                <li><a href="#">Strona Główna</a></li>
+                <li><a href="#">Usługi</a></li>
+                <li><a href="#">Kontakt</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="img-box">
+            <div class="img"></div>
+            <div class="text">
+                <p id="myParagraph">Usługi informatyczne</p>
+            </div>
+        </div>
+        <section class="contact-form">
+            <h1>Kontakt</h1>
+            <form action="submit.php" method="post">
+                <label for="name">Imię:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="surname">Nazwisko:</label>
+                <input type="text" id="surname" name="surname" required>
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+                <textarea id="message" name="message" rows="4" placeholder="Wpisz swoją wiadomość"></textarea>
+                <div class="terms">
+                    <label for="terms">Zgadzam się z regulaminem</label>
+                    <input type="checkbox" id="terms" name="terms" required>
+                </div>
+                <button type="submit">Wyślij</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>Autor strony: 0000000000</p>
+    </footer>
+    <script src="./script.js"></script>
+</body>
+</html>
+
+
+
